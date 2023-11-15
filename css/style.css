@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  zoom: 87%;
+}
+
+a .bg-primary {
+  background-color: #234cad !important;
+  height: 40px;
+}
+
+img.bg-primary {
+  background-color: #234cad !important;
+  height: 40px;
+}
+
+.nav-item:hover {
+  border-radius: 50px;
+  border: 2px solid #234cad;
+}
+
+.navbar-brand.text-primary {
+  color: #234cad !important;
+  font-size: 24px !important;
+}
+
+.nav-link.text-primary {
+  color: #234cad !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+a.btn-outline-primary {
+  border: 2px solid #234cad;
+  border-color: #234cad !important;
+  color: #234cad !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  --bs-btn-hover-color: #234cad !important;
+  --bs-btn-hover-bg: #f2f6ff !important;
+}
+
+a.btn-primary {
+  background-color: #f2f6ff !important;
+  border: none;
+  font-weight: 700 !important;
+  color: #234cad !important;
+  font-size: 18px !important;
+}
+
+a.btn-primary:hover {
+  border-radius: 20px;
+  border: 2px solid #234cad;
+}
+
+button.btn-primary {
+  background-color: #f2f6ff !important;
+  border: none;
+  font-weight: 700 !important;
+  color: #234cad !important;
+  font-size: 18px !important;
+  transition: all 0.5s;
+}
+
+button .navbar-toggler-icon {
+  color: #234cad !important;
+}
+
+i.text-primary {
+  color: #234cad !important;
+}
+
+button.navbar-toggler {
+  border: none;
+  border-radius: 50%;
+  background-color: #f2f6ff !important;
+  height: 40px;
+}
+
+.jumbotron {
+  background-color: #f2f6ff;
+  color: #234cad;
+}
+
+.jumbotron a.btn-outline-primary {
+  font-size: 22px !important;
+  transition: all 0.5s;
+}
+
+.svg-jumbotron {
+  position: absolute;
+  height: 45rem;
+  top: 4rem;
+}
+
+.cloud-lock {
+  color: #234cad;
+}
+
+#product {
+  color: #234cad;
+}
+
+.product-img {
+  height: 500px !important;
+}
+
+.product-2 {
+  overflow: hidden;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.44);
+}
+
+.glass-img {
+  position: relative;
+  height: 450px;
+  top: -300px;
+  right: 75px;
+  z-index: -1;
+}
+
+nav {
+  background-color: white;
+}
+.register-page {
+  background-image: url(../assets/svg/Jumbotron.svg);
+  background-size: 50%;
+}
+
+.register-page .glass {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.44);
+}
+
+.register {
+  overflow: hidden;
+  color: #234cad;
+}
+
+hr.text-primary {
+  color: #234cad !important;
+}
+
+form .btn-outline-primary {
+  border: 2px solid #234cad;
+  border-color: #234cad !important;
+  color: #234cad !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  --bs-btn-hover-color: #234cad !important;
+  --bs-btn-hover-bg: #f2f6ff !important;
+  transition: all 0.5s;
+}
+
+.glass-img-bigger {
+  position: relative;
+  height: 750px;
+  top: -500px;
+  right: 250px;
+  z-index: -1;
+}
+
+h3.text-primary {
+  color: #234cad !important;
+}
+
+.plan-bg {
+  background: #f2f6ff;
+  border: 2px solid #ffffff;
+  color: #234cad;
+  border-radius: 60px;
+}
+
+.plan-bg-hovered {
+  border: 2px solid #234cad;
+  color: #234cad;
+  border-radius: 60px;
+}
+
+.plan-btn {
+  background-color: #ffffff !important;
+  color: #234cad !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  --bs-btn-hover-color: #234cad !important;
+  --bs-btn-hover-bg: #f2f6ff !important;
+  transition: all 0.5s;
+}
+
+.col h2 {
+  font-size: 25px;
+  margin-top: 2ex;
+  margin-bottom: 3ex;
+}
+
+.plan {
+  color: #234cad;
+}
+
+.col a {
+  margin-top: 1;
+  margin-bottom: 8ex;
+}
+
+.col p {
+  margin-top: 1;
+  margin-bottom: 5ex;
+}
+
+.footer-list h2 {
+  color: #234cad;
+  font-size: 30px;
+}
+
+.footer-list p {
+  color: #234cad;
+  font-size: 18px;
+}
+
+#about {
+  color: #234cad !important;
+  position: inherit !important;
+}
+
+#pricing {
+  color: #234cad !important;
+}
+
+.input {
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #f2f6ff;
+  border-radius: 60px;
+}
+
+.bg-btn {
+  background-color: #234cad !important;
+  border-radius: 30px;
+}
+
+.fa-angle-right {
+  color: #f2f6ff;
+}
+
+.fa-angle-up {
+  color: #f2f6ff;
+}
+
+.toast-img {
+  background-color: #234cad !important;
+  height: 20px;
+}
+
+.toast-img-error {
+  height: 20px;
+}
+
+h1.text-primary {
+  color: #234cad !important;
+}
+
+h2.text-primary {
+  color: #234cad !important;
+}
+
+strong.text-primary {
+  color: #234cad !important;
+}
+
+@media screen and (max-width: 1400px) {
+  .svg-jumbotron {
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .svg-jumbotron {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #jumbotron-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../assets/svg/Jumbotron.svg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(8px);
+    z-index: -1;
+  }
+
+  #jumbotron-background #layer {
+    background-color: #f2f6ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+  }
+
+  .jumbotron {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    margin-top: -325px !important;
+  }
+
+  .register-page {
+    background-size: 350px;
+  }
+
+  .login-page {
+    background-size: 350px;
+  }
+}
